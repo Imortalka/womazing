@@ -21,6 +21,7 @@ body{
 }
 
 .logo{
+	align-items: center;
 	cursor: pointer;
 	transition: 0.5s ease;
 	display: flex;
@@ -31,11 +32,22 @@ body{
 }
 
 .womazing-logo{
-
+	margin-left: 14.47px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
 }
 
 .dress-logo{
-
+	width: 18.07px;
 }
 
 .header-text{
@@ -1325,7 +1337,7 @@ flex-grow: 0;
 }
 
 .mlfoot{
-	margin-left: 186.016px;
+	margin-left: 185.016px;
 }
 
 .mobile{
