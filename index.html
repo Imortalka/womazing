@@ -216,4 +216,14 @@
                 else $(".sticky2").addClass('fixed');
             });
 </script>
+	
+<script type="text/javascript">
+	$(window).scroll(function() {
+                var top = $(document).scrollTop();
+                if (top <10) $(".orang2").removeClass('fixed2');
+                else $(".orang2").addClass('fixed2');
+
+            });
+</script>
+	
 </html>
