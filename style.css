@@ -1655,3 +1655,6 @@ flex-grow: 0;
 a{
 	text-decoration: none;	
 }
+.fixed2{
+	top: -95px;
+}
