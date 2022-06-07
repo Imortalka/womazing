@@ -15,9 +15,9 @@
 
 </head>
 <body>
-	<header class="header2">
+	<header class="sticky2">
 		<div class="header">
-			<a href="womazing/index.png"><div class="logo">
+			<a href="index.html"><div class="logo">
 				<img src="img/dress.png" class="dress-logo">
 				<h1 class="womazing-logo">WOMAZING</h1>
 			</div></a>
@@ -98,7 +98,7 @@
 			</div>
 			<div class="kol-rod">
 				<div class="kol-big">
-					<a href="womazing/tovar.html"><div class="scr-kol3 scr-kol">
+					<a href="tovar.html"><div class="scr-kol3 scr-kol">
 							<div class="arrow-1 arrow-3">
 	    						<div></div>
 							</div>
@@ -156,14 +156,14 @@
 		<div class="all-women">
 			<h1 class="all">Для каждой</h1>
 			<h2 class="all-2">Каждая девушка уникальна.<br>Однако, мы схожи в<br>миллионе мелочей.<br><br>Womazing ищет эти мелочи и<br>создает прекрасные вещи,<br>которые выгодно<br>подчеркивают достоинства<br>каждой девушки.</h2>
-			<a href="womazing/brend.html" class="brend">Подробнее о бренде</a>
+			<a href="brend.html" class="brend">Подробнее о бренде</a>
 		</div>
 	</div>
 </div>
 <footer class="fot">
 		<div class="footer">
 			<div class="header ots">
-			<a href="index.png"><div class="logo">
+			<a href="index.html"><div class="logo">
 				<img src="img/dress.png" class="dress-logo">
 				<h1 class="womazing-logo">WOMAZING</h1>
 			</div></a>
@@ -203,4 +203,17 @@
 
 </footer>
 </body>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	$(window).scroll(function() {
+                var top = $(document).scrollTop();
+                if (top <10) $(".sticky2").removeClass('fixed');
+                else $(".sticky2").addClass('fixed');
+            });
+</script>
 </html>

@@ -1389,6 +1389,15 @@ color: #000000;
 	width: 442px;
 }
 
+.fixed{
+	top: 0;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	background-color: white;
+	box-shadow: 0px 4px 15px 0px #0000000D;
+}
+
 .women-brend{
 	margin-bottom: 46px;
 	font-family: 'Raleway', sans-serif;

@@ -18,15 +18,15 @@
 <body>
 	<header class="sticky2">
 		<div class="header">
-			<a href="womazing/index.png"><div class="logo">
+			<a href="index.html"><div class="logo">
 				<img src="img/dress.png" class="dress-logo">
 				<h1 class="womazing-logo">WOMAZING</h1>
 			</div></a>
 			<div>
-				<a href="file:///D:/папка%20не%20простая,%20а%20залатая/work/index.html" class="header-text">Главная</a>
-				<a href="file:///D:/папка%20не%20простая,%20а%20залатая/work/magazine.html" class="header-text">Магазин</a>
+				<a href="index.html" class="header-text">Главная</a>
+				<a href="magazine.html" class="header-text">Магазин</a>
 				<a href="" class="header-text header-text-2">О бренде</a>
-				<a href="file:///D:/папка%20не%20простая,%20а%20залатая/work/contacts.html" class="header-text">Контакты</a>
+				<a href="contacts.html" class="header-text">Контакты</a>
 			</div>
 			<div class="mk">
 				<img src="img/mobile.png" class="mobile">
@@ -38,7 +38,7 @@
 
 	<div class="screan-1-brend">
 		<h1 class="h1-big-tovar h1-brend">О бренде</h1>
-		<h2 class="h2-magazine"><a href="file:///D:/папка%20не%20простая,%20а%20залатая/work/index.html" class="h2-magazine-a">Главная</a><span class="a-">-</span><span class="color-magazine">О бренде</span></h2>
+		<h2 class="h2-magazine"><a href="index.html" class="h2-magazine-a">Главная</a><span class="a-">-</span><span class="color-magazine">О бренде</span></h2>
 		<div class="flex-brend">
 			<img src="img/girl4.png" class="girl4">
 			<div class="women-text-brend">
@@ -58,21 +58,21 @@
 			</div>
 			<img src="img/girl5.png" class="girl5">
 		</div>
-		<div class="sylka"><a href="" class="sylka-brend">Перейти в магазин</a></div>
+		<div class="sylka"><a href="magazine.html" class="sylka-brend">Перейти в магазин</a></div>
 	</div>
 
 	<footer class="fot">
 		<div class="footer">
 			<div class="header ots">
-			<a href="womazing/index.png"><div class="logo">
+			<a href="index.html"><div class="logo">
 				<img src="img/dress.png" class="dress-logo">
 				<h1 class="womazing-logo">WOMAZING</h1>
 			</div></a>
 			<div class="mlfoot">
-				<a href="file:///D:/папка%20не%20простая,%20а%20залатая/work/index.html" class="header-text">Главная</a>
-				<a href="file:///D:/папка%20не%20простая,%20а%20залатая/work/magazine.html"class="header-text">Магазин</a>
+				<a href="index.html" class="header-text">Главная</a>
+				<a href="magazine.html"class="header-text">Магазин</a>
 				<a href="" class="header-text header-text-2">О бренде</a>
-				<a href="file:///D:/папка%20не%20простая,%20а%20залатая/work/contacts.html" class="header-text">Контакты</a>
+				<a href="contacts.html" class="header-text">Контакты</a>
 			</div>
 			<div class="mk2">
 				<p class="p-spec-mk">+7 (495) 823-54-12</p>
@@ -103,4 +103,18 @@
 		</div>
 	</footer>
 </body>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	$(window).scroll(function() {
+                var top = $(document).scrollTop();
+                if (top <10) $(".sticky2").removeClass('fixed');
+                else $(".sticky2").addClass('fixed');
+            });
+</script>
+
 </html>
